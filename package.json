@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "code-style": "../node_modules/.bin/xo"
+  },
+  "devDependencies": {
+    "xo": "^0.32.0"
+  },
+  "xo": {
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "unicorn/no-fn-referencer-in-iterator": 0,
+      "import/no-unassigned-import": 0
+    }
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
